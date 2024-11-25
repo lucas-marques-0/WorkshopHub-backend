@@ -1,0 +1,6 @@
+@FastProjectApi_HostAddress = http://localhost:5143
+
+GET {{FastProjectApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
