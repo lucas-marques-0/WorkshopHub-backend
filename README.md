@@ -8,4 +8,4 @@ Use `dotnet run` para rodar. Navegue até o link local `http://localhost:5143/sw
 
 ## Obervação
 
-Como o projeto não possui persistência de dados, caso precise parar a execução de uma das partes, pare e reinicie o front-end e o back-end JUNTOS para evitar conflitos.
+Como o projeto ainda não possui persistência de dados, se você **atualizar a página** ou **reiniciar só o front-end ou só o back-end**, os dados podem se perder ou ficar fora de sincronia. Para evitar conflitos, sempre reinicie os dois (front e back) juntos quando fizer algo assim.
